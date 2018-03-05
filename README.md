@@ -1,5 +1,0 @@
-# Gnuplot GUI and statistical analysis
-
-###### A linear regression algorithm was implemented using gradient descent (GD) and pattern search (PS). While GD moves in the negative gradient direction at each step (i.e. relies on calculus), PS is a direct method and as such, does not require any calculus. It was interesting to compare the accuracy - via various statistical data such as the root mean squared error - and the rate of convergence of both algorithms in this context. 
-###### This example was also used to experiment with different types of gradient descent - batch gradient descent was compared to stochastic gradient descent (SGD) and minibatch gradient descent. Given the relatively small sample size (100 points), the results do not differ much from one method to the other. However, this proved to be useful to observe the different implementations of GD and how effectively the algorithm learns from the data samples provided.
-###### Some of the statistical tools/properties implemented so far: correlation, coefficient of determination, root mean squared error (RMSE), residual data for graphical analysis 
